@@ -71,7 +71,7 @@ void mgos_neopixel_clear(struct mgos_neopixel *np);
 /*
  * Output values of the pixels.
  */
-void mgos_neopixel_show_1(struct mgos_neopixel *np);
+void mgos_neopixel_show(struct mgos_neopixel *np);
 
 /*
  * Free neopixel instance.
